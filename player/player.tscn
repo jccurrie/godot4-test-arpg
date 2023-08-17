@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://dtn4j2tmv18t5"]
+
+[ext_resource type="Texture2D" uid="uid://c0w7xndlqvcw1" path="res://art/NinjaAdventure/Actor/Characters/DarkNinja/SpriteSheet.png" id="1_fyvvr"]
+
+[node name="Player" type="CharacterBody2D"]
+texture_filter = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_fyvvr")
+hframes = 4
+vframes = 7
